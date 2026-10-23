@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "procureiq"
+version = "1.0.0"
+description = "Command-line analytics for procurement data: spend analysis, lead times and red-flag detection."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Julliany Barbosa" }]
+
+[project.scripts]
+procureiq = "procureiq.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

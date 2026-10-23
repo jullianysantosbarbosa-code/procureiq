@@ -1,0 +1,613 @@
+id,date,department,supplier,category,amount_eur,processing_days
+1,2024-01-01,IT,Liffey Consulting Group,Office Supplies,310.8,7
+2,2024-01-02,IT,Atlas Cloud Services,Office Supplies,451.66,10
+3,2024-01-02,Legal,Orion Analytics,Facilities,15794.99,10
+4,2024-01-03,Finance,Orion Analytics,Office Supplies,267.44,2
+5,2024-01-05,Operations,Liffey Consulting Group,Training,6631.71,7
+6,2024-01-06,IT,Shamrock Logistics,Consulting,18088.29,61
+7,2024-01-07,HR,Atlas Cloud Services,Consulting,31709.9,37
+8,2024-01-07,Operations,Greenfield Maintenance,Facilities,12089.17,19
+9,2024-01-09,IT,Greenfield Maintenance,Facilities,17194.31,8
+10,2024-01-13,HR,Bluebell Stationery,Office Supplies,648.74,8
+11,2024-01-13,Finance,Orion Analytics,IT Services,42400.49,20
+12,2024-01-16,Operations,Atlas Cloud Services,Training,5662.14,9
+13,2024-01-16,Operations,Bluebell Stationery,Facilities,24703.61,10
+14,2024-01-16,HR,Orion Analytics,Consulting,21589.09,40
+15,2024-01-17,Finance,Emerald Facilities Ltd,Training,3723.85,5
+16,2024-01-19,HR,Liffey Consulting Group,Facilities,23989.95,17
+17,2024-01-20,Legal,Bluebell Stationery,Training,7994.45,23
+18,2024-01-20,Legal,Liffey Consulting Group,Consulting,17810.85,64
+19,2024-01-22,HR,Emerald Facilities Ltd,Office Supplies,2249.96,4
+20,2024-01-22,HR,Northwind Digital,Training,9531.11,19
+21,2024-01-23,Operations,Emerald Facilities Ltd,IT Services,35798.33,19
+22,2024-01-24,HR,Atlas Cloud Services,IT Services,25522.51,39
+23,2024-01-26,HR,Liffey Consulting Group,IT Services,8655.02,18
+24,2024-01-28,Legal,Bluebell Stationery,Office Supplies,803.43,6
+25,2024-01-29,HR,Bluebell Stationery,Office Supplies,1624.73,5
+26,2024-01-30,IT,Greenfield Maintenance,Training,3997.16,18
+27,2024-01-31,HR,Orion Analytics,IT Services,11814.15,16
+28,2024-02-02,HR,Atlas Cloud Services,Consulting,13469.47,56
+29,2024-02-02,HR,Northwind Digital,IT Services,10979.4,43
+30,2024-02-03,Legal,Liffey Consulting Group,Facilities,19903.83,9
+31,2024-02-04,IT,Atlas Cloud Services,Training,1942.66,14
+32,2024-02-06,HR,Emerald Facilities Ltd,Office Supplies,681.27,4
+33,2024-02-07,HR,Celtic Training Partners,Office Supplies,2442.21,3
+34,2024-02-07,HR,Liffey Consulting Group,Training,7069.91,6
+35,2024-02-07,Operations,Liffey Consulting Group,Facilities,19901.59,8
+36,2024-02-08,Finance,Atlas Cloud Services,Training,2892.13,25
+37,2024-02-09,Legal,Liffey Consulting Group,Training,7380.33,19
+38,2024-02-12,HR,Emerald Facilities Ltd,Office Supplies,1908.11,3
+39,2024-02-13,Legal,Northwind Digital,IT Services,36318.53,39
+40,2024-02-14,HR,Celtic Training Partners,Training,6143.49,17
+41,2024-02-16,IT,Liffey Consulting Group,IT Services,10324.54,38
+42,2024-02-17,Finance,Harbour Office Supplies,IT Services,30862.1,13
+43,2024-02-21,HR,Bluebell Stationery,IT Services,32369.42,38
+44,2024-02-21,IT,Orion Analytics,IT Services,40532.52,27
+45,2024-02-23,Finance,Atlas Cloud Services,Consulting,48337.37,26
+46,2024-02-26,Legal,Orion Analytics,Facilities,5175.25,12
+47,2024-02-27,HR,Atlas Cloud Services,Facilities,9478.59,14
+48,2024-03-01,IT,Atlas Cloud Services,Consulting,23554.26,54
+49,2024-03-03,Legal,Celtic Training Partners,IT Services,29061.83,18
+50,2024-03-03,Legal,Liffey Consulting Group,Facilities,25150.49,21
+51,2024-03-03,HR,Northwind Digital,Office Supplies,1681.39,10
+52,2024-03-06,Legal,Atlas Cloud Services,IT Services,14126.16,18
+53,2024-03-08,HR,Northwind Digital,Facilities,14575.77,16
+54,2024-03-09,HR,Northwind Digital,Facilities,15373.3,7
+55,2024-03-10,HR,Liffey Consulting Group,Facilities,14073.79,10
+56,2024-03-13,Operations,Bluebell Stationery,Training,7031.34,25
+57,2024-03-15,Finance,Atlas Cloud Services,Facilities,28930.76,10
+58,2024-03-15,Finance,Northwind Digital,Training,3754.02,19
+59,2024-03-17,IT,Bluebell Stationery,Consulting,78387.4,41
+60,2024-03-20,IT,Atlas Cloud Services,Facilities,10807.64,8
+61,2024-03-23,IT,Northwind Digital,Training,7968.06,8
+62,2024-03-24,Legal,Northwind Digital,Facilities,11542.01,18
+63,2024-03-25,IT,Northwind Digital,Consulting,51693.2,38
+64,2024-03-28,IT,Liffey Consulting Group,Training,2636.22,7
+65,2024-03-29,HR,Greenfield Maintenance,Consulting,21855.86,49
+66,2024-03-29,Legal,Northwind Digital,Consulting,41204.69,23
+67,2024-03-30,IT,Atlas Cloud Services,Office Supplies,360.73,5
+68,2024-03-31,Legal,Orion Analytics,Facilities,6341.42,25
+69,2024-04-01,IT,Liffey Consulting Group,IT Services,26320.55,14
+70,2024-04-02,Legal,Emerald Facilities Ltd,IT Services,40259.37,25
+71,2024-04-02,Legal,Shamrock Logistics,Consulting,51638.17,65
+72,2024-04-03,Operations,Bluebell Stationery,Consulting,29108.18,23
+73,2024-04-05,Finance,Bluebell Stationery,Facilities,21283.48,23
+74,2024-04-07,HR,Atlas Cloud Services,Training,5757.65,16
+75,2024-04-08,HR,Orion Analytics,Training,4815.35,23
+76,2024-04-13,HR,Liffey Consulting Group,Office Supplies,657.96,4
+77,2024-04-13,Legal,Orion Analytics,Training,4993.15,12
+78,2024-04-14,Finance,Atlas Cloud Services,Facilities,8224.53,18
+79,2024-04-14,IT,Liffey Consulting Group,Office Supplies,1048.05,9
+80,2024-04-15,HR,Atlas Cloud Services,IT Services,12498.46,36
+81,2024-04-15,IT,Harbour Office Supplies,Facilities,4380.12,30
+82,2024-04-15,Operations,Liffey Consulting Group,Consulting,18755.71,29
+83,2024-04-15,IT,Orion Analytics,Office Supplies,959.76,4
+84,2024-04-16,Legal,Northwind Digital,Office Supplies,2185.52,5
+85,2024-04-17,HR,Atlas Cloud Services,Training,9889.74,8
+86,2024-04-19,Finance,Emerald Facilities Ltd,Consulting,21725.55,59
+87,2024-04-19,HR,Liffey Consulting Group,Office Supplies,3624.6,10
+88,2024-04-23,HR,Liffey Consulting Group,Training,1881.76,12
+89,2024-04-25,Finance,Orion Analytics,Consulting,30279.08,69
+90,2024-04-26,Finance,Atlas Cloud Services,Training,1533.36,25
+91,2024-04-26,Finance,Celtic Training Partners,Consulting,34533.83,44
+92,2024-04-26,IT,Liffey Consulting Group,Facilities,28577.62,12
+93,2024-04-27,HR,Emerald Facilities Ltd,Facilities,18058.44,24
+94,2024-04-28,Legal,Northwind Digital,IT Services,22924.38,6
+95,2024-04-30,HR,Celtic Training Partners,Office Supplies,2043.89,5
+96,2024-04-30,Operations,Liffey Consulting Group,Facilities,5417.24,29
+97,2024-04-30,Operations,Liffey Consulting Group,Training,6474.56,16
+98,2024-05-01,IT,Celtic Training Partners,Consulting,40829.87,70
+99,2024-05-02,Legal,Northwind Digital,IT Services,22209.33,6
+100,2024-05-03,Legal,Northwind Digital,IT Services,23474.39,5
+101,2024-05-04,IT,Harbour Office Supplies,Facilities,8579.26,19
+102,2024-05-04,Finance,Shamrock Logistics,Training,5253.87,12
+103,2024-05-06,Legal,Atlas Cloud Services,Office Supplies,2198.64,6
+104,2024-05-06,IT,Celtic Training Partners,Consulting,26893.89,47
+105,2024-05-10,IT,Northwind Digital,Facilities,14386.94,23
+106,2024-05-17,Legal,Liffey Consulting Group,Office Supplies,790.69,3
+107,2024-05-17,HR,Northwind Digital,IT Services,7828.66,21
+108,2024-05-18,Legal,Greenfield Maintenance,IT Services,44323.82,20
+109,2024-05-19,Finance,Liffey Consulting Group,Office Supplies,2352.3,8
+110,2024-05-19,IT,Northwind Digital,Consulting,15700.78,48
+111,2024-05-20,IT,Atlas Cloud Services,Office Supplies,1022.76,6
+112,2024-05-21,HR,Northwind Digital,Office Supplies,1408.63,7
+113,2024-05-22,Operations,Orion Analytics,Consulting,10337.16,55
+114,2024-05-23,IT,Emerald Facilities Ltd,Consulting,67409.26,54
+115,2024-05-23,Operations,Liffey Consulting Group,Facilities,3816.27,24
+116,2024-05-25,Finance,Northwind Digital,Facilities,17614.72,26
+117,2024-05-25,Finance,Northwind Digital,IT Services,18940.17,36
+118,2024-05-26,IT,Harbour Office Supplies,IT Services,16211.6,20
+119,2024-05-29,Finance,Liffey Consulting Group,Consulting,69983.36,57
+120,2024-05-29,Operations,Northwind Digital,Facilities,22183.15,22
+121,2024-05-29,HR,Northwind Digital,Facilities,24250.65,9
+122,2024-05-31,IT,Northwind Digital,Facilities,19765.8,11
+123,2024-06-04,Operations,Orion Analytics,IT Services,38434.3,17
+124,2024-06-05,HR,Northwind Digital,Office Supplies,1040.78,5
+125,2024-06-06,Finance,Atlas Cloud Services,Training,3839.01,14
+126,2024-06-06,Legal,Bluebell Stationery,Office Supplies,1150.63,3
+127,2024-06-07,Operations,Liffey Consulting Group,Training,10091.89,23
+128,2024-06-07,Legal,Liffey Consulting Group,Consulting,15829.67,55
+129,2024-06-10,Legal,Atlas Cloud Services,IT Services,44168.58,39
+130,2024-06-10,Finance,Bluebell Stationery,Office Supplies,527.52,4
+131,2024-06-12,HR,Bluebell Stationery,Consulting,48616.19,32
+132,2024-06-16,Legal,Bluebell Stationery,IT Services,18709.68,28
+133,2024-06-16,HR,Northwind Digital,IT Services,4854.88,31
+134,2024-06-18,Legal,Greenfield Maintenance,Training,10502.29,22
+135,2024-06-18,Legal,Northwind Digital,Office Supplies,1133.18,5
+136,2024-06-19,Legal,Emerald Facilities Ltd,Training,3497.6,22
+137,2024-06-25,HR,Greenfield Maintenance,Office Supplies,1698.15,4
+138,2024-06-25,Legal,Shamrock Logistics,Training,7304.47,15
+139,2024-06-27,HR,Northwind Digital,IT Services,26446.67,45
+140,2024-06-28,Operations,Atlas Cloud Services,Training,6128.05,21
+141,2024-06-29,IT,Bluebell Stationery,Training,2784.22,22
+142,2024-06-30,Legal,Atlas Cloud Services,IT Services,19988.12,40
+143,2024-06-30,Legal,Bluebell Stationery,Facilities,7106.23,29
+144,2024-07-01,IT,Greenfield Maintenance,Office Supplies,2706.17,6
+145,2024-07-03,HR,Celtic Training Partners,IT Services,12745.78,33
+146,2024-07-07,IT,Atlas Cloud Services,Training,7813.1,14
+147,2024-07-09,HR,Greenfield Maintenance,Training,736.22,23
+148,2024-07-09,Legal,Harbour Office Supplies,Training,6027.47,25
+149,2024-07-10,HR,Liffey Consulting Group,Consulting,63243.25,22
+150,2024-07-15,Operations,Emerald Facilities Ltd,Consulting,17325.69,31
+151,2024-07-15,Finance,Northwind Digital,Office Supplies,840.55,6
+152,2024-07-15,Operations,Shamrock Logistics,Training,2083.97,14
+153,2024-07-17,HR,Atlas Cloud Services,Office Supplies,3265.08,4
+154,2024-07-18,Legal,Bluebell Stationery,Consulting,34888.94,51
+155,2024-07-24,HR,Emerald Facilities Ltd,Facilities,7308.44,26
+156,2024-07-25,Operations,Atlas Cloud Services,Office Supplies,738.99,7
+157,2024-07-29,IT,Harbour Office Supplies,Facilities,5501.67,19
+158,2024-07-31,IT,Northwind Digital,IT Services,30041.56,37
+159,2024-08-03,Operations,Harbour Office Supplies,Facilities,8134.69,24
+160,2024-08-05,Legal,Atlas Cloud Services,Facilities,22049.51,21
+161,2024-08-11,IT,Atlas Cloud Services,IT Services,6380.28,42
+162,2024-08-11,Legal,Northwind Digital,Office Supplies,2517.8,5
+163,2024-08-12,Finance,Greenfield Maintenance,Office Supplies,2307.91,2
+164,2024-08-12,Operations,Orion Analytics,Training,6051.67,19
+165,2024-08-13,Finance,Northwind Digital,Office Supplies,1816.13,5
+166,2024-08-14,Operations,Bluebell Stationery,Office Supplies,1402.63,9
+167,2024-08-16,IT,Shamrock Logistics,Consulting,73206.85,24
+168,2024-08-18,HR,Celtic Training Partners,Facilities,15225.41,29
+169,2024-08-18,Finance,Liffey Consulting Group,Consulting,39717.81,34
+170,2024-08-19,IT,Atlas Cloud Services,Office Supplies,2912.39,6
+171,2024-08-19,IT,Harbour Office Supplies,Office Supplies,245.56,7
+172,2024-08-20,HR,Northwind Digital,Facilities,1859.0,24
+173,2024-08-24,Finance,Celtic Training Partners,Facilities,7498.94,30
+174,2024-08-24,Legal,Harbour Office Supplies,Consulting,47538.8,24
+175,2024-08-25,Legal,Harbour Office Supplies,Training,2270.19,18
+176,2024-08-26,Finance,Atlas Cloud Services,IT Services,16645.63,35
+177,2024-08-29,HR,Atlas Cloud Services,IT Services,38466.46,14
+178,2024-08-29,HR,Northwind Digital,Training,5952.43,22
+179,2024-08-30,IT,Liffey Consulting Group,Consulting,49895.61,42
+180,2024-09-01,HR,Bluebell Stationery,Office Supplies,2330.34,5
+181,2024-09-02,Finance,Liffey Consulting Group,Facilities,12110.58,9
+182,2024-09-03,Operations,Northwind Digital,IT Services,20975.34,40
+183,2024-09-04,Legal,Emerald Facilities Ltd,IT Services,27144.18,42
+184,2024-09-04,Legal,Northwind Digital,Facilities,9822.27,11
+185,2024-09-05,IT,Celtic Training Partners,Training,3621.11,12
+186,2024-09-05,Finance,Harbour Office Supplies,Consulting,36334.45,60
+187,2024-09-05,Legal,Orion Analytics,Training,2294.28,8
+188,2024-09-06,Operations,Harbour Office Supplies,Training,637.42,8
+189,2024-09-07,Legal,Harbour Office Supplies,IT Services,27594.24,41
+190,2024-09-07,HR,Liffey Consulting Group,IT Services,16211.93,31
+191,2024-09-09,IT,Emerald Facilities Ltd,Office Supplies,1781.71,8
+192,2024-09-10,IT,Greenfield Maintenance,Consulting,14419.5,48
+193,2024-09-10,Operations,Liffey Consulting Group,IT Services,29822.28,15
+194,2024-09-10,Operations,Orion Analytics,IT Services,21902.76,27
+195,2024-09-11,HR,Northwind Digital,IT Services,21606.11,37
+196,2024-09-12,Operations,Celtic Training Partners,Consulting,57544.86,68
+197,2024-09-15,HR,Liffey Consulting Group,Office Supplies,1207.65,7
+198,2024-09-17,Finance,Celtic Training Partners,Consulting,6353.85,54
+199,2024-09-18,HR,Liffey Consulting Group,Consulting,7894.35,67
+200,2024-09-19,Finance,Celtic Training Partners,Facilities,3007.0,21
+201,2024-09-19,Operations,Orion Analytics,IT Services,19512.8,45
+202,2024-09-23,Operations,Northwind Digital,Facilities,9010.04,21
+203,2024-09-24,HR,Emerald Facilities Ltd,Facilities,10716.06,10
+204,2024-09-24,Finance,Northwind Digital,Facilities,5223.33,19
+205,2024-09-25,Legal,Emerald Facilities Ltd,IT Services,22522.57,36
+206,2024-09-27,Finance,Celtic Training Partners,Office Supplies,1551.35,8
+207,2024-09-28,Operations,Liffey Consulting Group,Consulting,38098.67,36
+208,2024-09-28,Legal,Northwind Digital,Consulting,43340.94,49
+209,2024-10-01,Operations,Atlas Cloud Services,IT Services,28284.65,21
+210,2024-10-01,Legal,Northwind Digital,Facilities,5180.11,15
+211,2024-10-03,IT,Liffey Consulting Group,Training,3132.98,6
+212,2024-10-05,Legal,Harbour Office Supplies,IT Services,17584.73,40
+213,2024-10-05,HR,Liffey Consulting Group,Consulting,36858.3,28
+214,2024-10-06,Operations,Celtic Training Partners,Training,1828.75,18
+215,2024-10-06,Legal,Emerald Facilities Ltd,Consulting,28736.79,62
+216,2024-10-06,Finance,Orion Analytics,Facilities,9591.81,19
+217,2024-10-07,Finance,Shamrock Logistics,Consulting,37626.97,64
+218,2024-10-08,Operations,Emerald Facilities Ltd,IT Services,9321.07,41
+219,2024-10-08,Operations,Harbour Office Supplies,Office Supplies,1767.32,3
+220,2024-10-08,IT,Shamrock Logistics,Office Supplies,297.76,8
+221,2024-10-11,Finance,Liffey Consulting Group,Consulting,35216.79,33
+222,2024-10-12,Finance,Bluebell Stationery,Facilities,6908.0,27
+223,2024-10-13,IT,Harbour Office Supplies,Office Supplies,620.64,3
+224,2024-10-15,IT,Liffey Consulting Group,Facilities,7952.79,28
+225,2024-10-16,HR,Liffey Consulting Group,Training,4788.85,5
+226,2024-10-17,IT,Emerald Facilities Ltd,IT Services,23531.75,14
+227,2024-10-17,IT,Harbour Office Supplies,IT Services,21831.36,17
+228,2024-10-19,Legal,Harbour Office Supplies,Training,6400.23,22
+229,2024-10-19,Legal,Liffey Consulting Group,Office Supplies,656.47,3
+230,2024-10-21,IT,Liffey Consulting Group,IT Services,7734.35,44
+231,2024-10-22,Legal,Northwind Digital,Office Supplies,1993.78,8
+232,2024-10-22,Legal,Orion Analytics,Training,4764.73,19
+233,2024-10-23,Operations,Orion Analytics,Office Supplies,2136.92,7
+234,2024-10-25,Legal,Atlas Cloud Services,IT Services,7184.94,27
+235,2024-10-27,Legal,Northwind Digital,IT Services,3014.92,28
+236,2024-10-29,Operations,Liffey Consulting Group,Training,2534.68,23
+237,2024-10-29,HR,Northwind Digital,Office Supplies,2517.65,8
+238,2024-10-31,Operations,Northwind Digital,Facilities,8808.54,24
+239,2024-11-02,Operations,Emerald Facilities Ltd,IT Services,20083.33,36
+240,2024-11-02,Legal,Harbour Office Supplies,Office Supplies,1350.04,6
+241,2024-11-02,Legal,Orion Analytics,Office Supplies,1142.35,3
+242,2024-11-02,Legal,Orion Analytics,Training,3378.09,12
+243,2024-11-03,HR,Harbour Office Supplies,Consulting,46741.63,50
+244,2024-11-04,Legal,Emerald Facilities Ltd,Office Supplies,130.43,6
+245,2024-11-05,IT,Celtic Training Partners,Facilities,1721.8,27
+246,2024-11-07,Legal,Northwind Digital,IT Services,10901.64,20
+247,2024-11-08,Operations,Liffey Consulting Group,Facilities,14141.95,19
+248,2024-11-11,HR,Greenfield Maintenance,IT Services,28850.73,14
+249,2024-11-11,Legal,Liffey Consulting Group,Training,1869.15,10
+250,2024-11-12,Legal,Shamrock Logistics,IT Services,25513.54,45
+251,2024-11-13,IT,Atlas Cloud Services,Facilities,18314.69,22
+252,2024-11-13,Legal,Celtic Training Partners,IT Services,31382.47,15
+253,2024-11-14,IT,Northwind Digital,Consulting,29703.42,34
+254,2024-11-17,Finance,Celtic Training Partners,Office Supplies,992.38,6
+255,2024-11-17,Legal,Northwind Digital,Training,3358.97,11
+256,2024-11-18,HR,Liffey Consulting Group,IT Services,40677.04,37
+257,2024-11-20,Legal,Atlas Cloud Services,Training,9222.52,13
+258,2024-11-20,HR,Northwind Digital,Training,626.61,14
+259,2024-11-23,Operations,Atlas Cloud Services,Training,3742.09,23
+260,2024-11-23,Operations,Harbour Office Supplies,Facilities,24774.06,29
+261,2024-11-24,Finance,Orion Analytics,Facilities,7734.5,29
+262,2024-11-25,HR,Atlas Cloud Services,Office Supplies,1544.56,7
+263,2024-11-25,IT,Northwind Digital,IT Services,8328.76,32
+264,2024-11-26,IT,Liffey Consulting Group,Training,1669.4,23
+265,2024-11-27,HR,Liffey Consulting Group,Consulting,22922.21,52
+266,2024-11-30,HR,Celtic Training Partners,Training,3500.43,18
+267,2024-11-30,Legal,Harbour Office Supplies,Training,4799.51,11
+268,2024-12-01,IT,Liffey Consulting Group,Consulting,28942.51,59
+269,2024-12-01,IT,Northwind Digital,Training,6873.52,7
+270,2024-12-04,Operations,Celtic Training Partners,IT Services,22848.58,23
+271,2024-12-05,Legal,Celtic Training Partners,Office Supplies,665.06,3
+272,2024-12-05,Finance,Greenfield Maintenance,Office Supplies,1310.02,10
+273,2024-12-06,IT,Celtic Training Partners,Facilities,8536.41,17
+274,2024-12-06,Operations,Northwind Digital,Office Supplies,1577.32,4
+275,2024-12-07,Legal,Emerald Facilities Ltd,Consulting,17704.9,52
+276,2024-12-07,Operations,Northwind Digital,Consulting,42539.92,53
+277,2024-12-07,Operations,Shamrock Logistics,IT Services,28426.01,25
+278,2024-12-08,Legal,Orion Analytics,Training,7956.84,24
+279,2024-12-11,HR,Emerald Facilities Ltd,IT Services,27106.19,23
+280,2024-12-12,Finance,Atlas Cloud Services,Facilities,3635.19,14
+281,2024-12-14,IT,Northwind Digital,Consulting,60834.01,40
+282,2024-12-20,Finance,Northwind Digital,Office Supplies,849.25,3
+283,2024-12-22,HR,Atlas Cloud Services,Consulting,53601.49,53
+284,2024-12-22,Legal,Northwind Digital,Training,6312.49,19
+285,2024-12-23,Finance,Atlas Cloud Services,Training,3619.87,16
+286,2024-12-24,HR,Bluebell Stationery,Consulting,46968.5,45
+287,2024-12-27,Finance,Northwind Digital,Office Supplies,1444.56,9
+288,2024-12-28,Legal,Atlas Cloud Services,Training,8019.61,6
+289,2024-12-31,Operations,Harbour Office Supplies,Office Supplies,2451.18,8
+290,2025-01-03,HR,Northwind Digital,Training,1638.85,18
+291,2025-01-06,IT,Liffey Consulting Group,Consulting,28611.2,48
+292,2025-01-07,Legal,Bluebell Stationery,Training,2225.89,6
+293,2025-01-07,Legal,Northwind Digital,Consulting,44590.75,41
+294,2025-01-08,Finance,Atlas Cloud Services,Office Supplies,3133.49,8
+295,2025-01-10,IT,Orion Analytics,Office Supplies,408.11,9
+296,2025-01-12,Operations,Harbour Office Supplies,Facilities,24820.63,29
+297,2025-01-12,Legal,Orion Analytics,Office Supplies,1592.4,3
+298,2025-01-14,Finance,Emerald Facilities Ltd,Training,7544.7,6
+299,2025-01-14,HR,Liffey Consulting Group,Consulting,22905.5,63
+300,2025-01-15,Operations,Celtic Training Partners,Consulting,62123.25,66
+301,2025-01-17,Legal,Celtic Training Partners,Office Supplies,2938.21,10
+302,2025-01-17,HR,Emerald Facilities Ltd,Training,3408.39,9
+303,2025-01-18,Legal,Atlas Cloud Services,Training,8894.49,17
+304,2025-01-20,HR,Bluebell Stationery,Office Supplies,1356.94,10
+305,2025-01-21,IT,Harbour Office Supplies,Facilities,20331.26,13
+306,2025-01-23,Operations,Liffey Consulting Group,Office Supplies,1092.57,6
+307,2025-01-23,Finance,Shamrock Logistics,Consulting,22824.32,70
+308,2025-01-25,HR,Liffey Consulting Group,IT Services,19932.91,3
+309,2025-01-25,HR,Northwind Digital,Office Supplies,852.69,2
+310,2025-01-26,HR,Atlas Cloud Services,IT Services,28172.98,34
+311,2025-01-28,Legal,Northwind Digital,Consulting,28362.38,42
+312,2025-01-29,HR,Liffey Consulting Group,IT Services,21198.7,5
+313,2025-01-30,Finance,Atlas Cloud Services,Consulting,10527.05,26
+314,2025-01-30,Finance,Liffey Consulting Group,Training,5510.66,7
+315,2025-01-30,HR,Shamrock Logistics,Training,4343.63,20
+316,2025-01-31,HR,Liffey Consulting Group,IT Services,23185.39,7
+317,2025-02-02,IT,Bluebell Stationery,Training,933.29,23
+318,2025-02-04,IT,Northwind Digital,Office Supplies,1732.73,5
+319,2025-02-05,IT,Northwind Digital,Office Supplies,1105.55,9
+320,2025-02-07,IT,Emerald Facilities Ltd,IT Services,4932.95,39
+321,2025-02-08,Finance,Harbour Office Supplies,Office Supplies,32025.22,6
+322,2025-02-08,IT,Northwind Digital,Consulting,20101.24,33
+323,2025-02-09,HR,Celtic Training Partners,IT Services,27018.12,39
+324,2025-02-09,HR,Orion Analytics,IT Services,26617.86,16
+325,2025-02-09,HR,Orion Analytics,IT Services,14603.44,33
+326,2025-02-12,HR,Atlas Cloud Services,Facilities,11109.39,10
+327,2025-02-12,Operations,Celtic Training Partners,Facilities,11058.64,10
+328,2025-02-13,IT,Liffey Consulting Group,Office Supplies,350.94,6
+329,2025-02-14,IT,Emerald Facilities Ltd,Office Supplies,2985.5,8
+330,2025-02-14,HR,Harbour Office Supplies,Consulting,70420.21,25
+331,2025-02-16,HR,Northwind Digital,Facilities,3084.18,24
+332,2025-02-19,IT,Bluebell Stationery,Consulting,63750.44,69
+333,2025-02-20,Legal,Emerald Facilities Ltd,Consulting,61169.19,23
+334,2025-02-21,HR,Emerald Facilities Ltd,Training,3755.09,11
+335,2025-02-21,HR,Northwind Digital,Office Supplies,1147.26,9
+336,2025-02-22,HR,Harbour Office Supplies,Training,1336.94,25
+337,2025-02-22,Legal,Northwind Digital,IT Services,12589.19,28
+338,2025-02-23,IT,Northwind Digital,Training,10207.29,25
+339,2025-02-24,IT,Celtic Training Partners,Consulting,67907.0,67
+340,2025-02-25,IT,Harbour Office Supplies,Office Supplies,744.14,4
+341,2025-02-26,Finance,Northwind Digital,Consulting,68465.32,70
+342,2025-02-26,Operations,Orion Analytics,IT Services,10820.11,21
+343,2025-02-27,HR,Liffey Consulting Group,Consulting,37824.29,57
+344,2025-03-01,Operations,Liffey Consulting Group,Facilities,17433.41,18
+345,2025-03-03,Operations,Bluebell Stationery,Consulting,11275.61,45
+346,2025-03-05,Operations,Atlas Cloud Services,Office Supplies,945.18,2
+347,2025-03-08,Operations,Atlas Cloud Services,IT Services,10760.02,17
+348,2025-03-09,Operations,Bluebell Stationery,Office Supplies,2221.22,5
+349,2025-03-09,HR,Celtic Training Partners,IT Services,19272.6,15
+350,2025-03-09,Legal,Northwind Digital,Consulting,82442.89,50
+351,2025-03-14,IT,Atlas Cloud Services,Office Supplies,823.05,4
+352,2025-03-15,HR,Emerald Facilities Ltd,Office Supplies,470.7,3
+353,2025-03-15,Operations,Emerald Facilities Ltd,Consulting,25513.92,38
+354,2025-03-15,Finance,Harbour Office Supplies,Facilities,6298.44,20
+355,2025-03-16,IT,Harbour Office Supplies,Consulting,25484.6,48
+356,2025-03-16,Finance,Northwind Digital,Facilities,6583.76,23
+357,2025-03-19,IT,Greenfield Maintenance,Consulting,12749.43,27
+358,2025-03-19,HR,Harbour Office Supplies,IT Services,30447.59,21
+359,2025-03-20,Operations,Northwind Digital,Office Supplies,1059.26,5
+360,2025-03-21,HR,Harbour Office Supplies,Office Supplies,2358.09,2
+361,2025-03-22,IT,Shamrock Logistics,Facilities,4385.37,25
+362,2025-03-26,Finance,Atlas Cloud Services,Consulting,42421.05,70
+363,2025-03-26,HR,Celtic Training Partners,Consulting,42208.23,29
+364,2025-03-28,HR,Celtic Training Partners,Facilities,5887.27,24
+365,2025-03-28,Finance,Harbour Office Supplies,Office Supplies,2086.93,9
+366,2025-03-30,Operations,Harbour Office Supplies,IT Services,34820.41,14
+367,2025-04-02,Finance,Liffey Consulting Group,Facilities,6438.93,9
+368,2025-04-03,Finance,Northwind Digital,Training,2483.05,12
+369,2025-04-05,HR,Celtic Training Partners,Training,7683.4,13
+370,2025-04-05,Legal,Harbour Office Supplies,IT Services,13664.08,23
+371,2025-04-05,IT,Northwind Digital,Facilities,9601.26,14
+372,2025-04-06,Finance,Orion Analytics,IT Services,30897.56,17
+373,2025-04-07,Operations,Atlas Cloud Services,Training,7518.83,17
+374,2025-04-07,Finance,Harbour Office Supplies,Training,8265.27,7
+375,2025-04-07,Finance,Orion Analytics,Consulting,11017.57,21
+376,2025-04-09,HR,Harbour Office Supplies,Training,6533.07,22
+377,2025-04-09,HR,Northwind Digital,Training,3050.39,15
+378,2025-04-12,IT,Northwind Digital,Consulting,19497.06,58
+379,2025-04-12,IT,Northwind Digital,Training,4090.78,14
+380,2025-04-14,Finance,Northwind Digital,Facilities,10368.3,19
+381,2025-04-15,IT,Liffey Consulting Group,Training,6064.64,14
+382,2025-04-17,HR,Atlas Cloud Services,Consulting,44767.11,49
+383,2025-04-17,Finance,Harbour Office Supplies,IT Services,8991.44,30
+384,2025-04-17,Operations,Northwind Digital,Consulting,28249.87,33
+385,2025-04-18,Operations,Greenfield Maintenance,Facilities,3636.97,24
+386,2025-04-19,Finance,Emerald Facilities Ltd,Consulting,75934.69,55
+387,2025-04-19,IT,Harbour Office Supplies,Training,2059.36,5
+388,2025-04-20,HR,Emerald Facilities Ltd,Consulting,34220.09,69
+389,2025-04-21,Legal,Orion Analytics,Training,5113.91,15
+390,2025-04-25,HR,Liffey Consulting Group,IT Services,24490.4,17
+391,2025-04-26,HR,Northwind Digital,Office Supplies,966.23,6
+392,2025-04-28,Finance,Liffey Consulting Group,IT Services,9595.76,20
+393,2025-04-29,Finance,Emerald Facilities Ltd,Consulting,20698.66,64
+394,2025-05-03,Finance,Bluebell Stationery,Training,2966.12,17
+395,2025-05-03,Operations,Celtic Training Partners,Training,2893.21,14
+396,2025-05-05,Legal,Atlas Cloud Services,Training,9996.36,13
+397,2025-05-05,Finance,Northwind Digital,Office Supplies,1175.7,8
+398,2025-05-06,Operations,Northwind Digital,Office Supplies,797.98,6
+399,2025-05-09,Operations,Orion Analytics,Facilities,14735.13,16
+400,2025-05-11,Operations,Liffey Consulting Group,Office Supplies,520.45,6
+401,2025-05-12,Finance,Shamrock Logistics,IT Services,19009.06,20
+402,2025-05-14,Operations,Atlas Cloud Services,Consulting,22511.9,37
+403,2025-05-16,Operations,Emerald Facilities Ltd,Training,2775.6,18
+404,2025-05-20,Finance,Celtic Training Partners,Office Supplies,2659.95,4
+405,2025-05-20,Operations,Orion Analytics,Office Supplies,1377.46,5
+406,2025-05-22,IT,Emerald Facilities Ltd,Office Supplies,1649.65,6
+407,2025-05-23,Finance,Atlas Cloud Services,Training,3832.3,16
+408,2025-05-23,HR,Celtic Training Partners,Office Supplies,845.1,7
+409,2025-05-25,IT,Atlas Cloud Services,Consulting,62748.82,51
+410,2025-05-26,IT,Harbour Office Supplies,Consulting,46006.41,36
+411,2025-05-27,IT,Emerald Facilities Ltd,Facilities,3740.48,8
+412,2025-05-28,HR,Orion Analytics,Office Supplies,900.6,9
+413,2025-05-29,IT,Atlas Cloud Services,Training,2125.79,11
+414,2025-05-29,HR,Atlas Cloud Services,Office Supplies,743.66,7
+415,2025-05-30,Operations,Bluebell Stationery,Training,1243.63,21
+416,2025-05-31,Legal,Orion Analytics,Office Supplies,1582.29,4
+417,2025-06-01,Operations,Emerald Facilities Ltd,Office Supplies,684.71,7
+418,2025-06-01,Operations,Harbour Office Supplies,IT Services,14995.16,15
+419,2025-06-01,Legal,Liffey Consulting Group,Facilities,21757.68,8
+420,2025-06-01,IT,Northwind Digital,Consulting,19856.3,61
+421,2025-06-02,HR,Harbour Office Supplies,Training,4380.54,18
+422,2025-06-03,IT,Emerald Facilities Ltd,Office Supplies,1192.77,9
+423,2025-06-03,HR,Orion Analytics,Facilities,6967.57,16
+424,2025-06-03,IT,Orion Analytics,IT Services,33535.93,14
+425,2025-06-06,Legal,Orion Analytics,IT Services,16646.27,44
+426,2025-06-07,Legal,Atlas Cloud Services,Consulting,17223.49,44
+427,2025-06-11,HR,Harbour Office Supplies,Training,8221.78,19
+428,2025-06-12,Operations,Emerald Facilities Ltd,Consulting,25901.95,47
+429,2025-06-15,Legal,Greenfield Maintenance,Training,2240.95,23
+430,2025-06-15,HR,Orion Analytics,Facilities,15791.5,9
+431,2025-06-15,HR,Orion Analytics,Facilities,6455.65,27
+432,2025-06-17,Operations,Harbour Office Supplies,Office Supplies,723.25,6
+433,2025-06-19,Legal,Harbour Office Supplies,Office Supplies,37587.53,5
+434,2025-06-19,IT,Northwind Digital,Office Supplies,1152.53,6
+435,2025-06-20,Finance,Atlas Cloud Services,Training,3041.54,15
+436,2025-06-20,Finance,Orion Analytics,IT Services,6857.21,15
+437,2025-06-21,HR,Harbour Office Supplies,Training,3702.24,14
+438,2025-06-21,IT,Liffey Consulting Group,Office Supplies,578.91,5
+439,2025-06-25,HR,Shamrock Logistics,Training,7975.18,5
+440,2025-06-26,Operations,Atlas Cloud Services,Consulting,74560.69,29
+441,2025-06-26,HR,Celtic Training Partners,Training,11785.82,10
+442,2025-07-02,Finance,Harbour Office Supplies,Office Supplies,1656.07,4
+443,2025-07-03,HR,Atlas Cloud Services,Consulting,42609.17,61
+444,2025-07-03,Finance,Orion Analytics,Facilities,9482.94,15
+445,2025-07-04,Operations,Emerald Facilities Ltd,IT Services,8483.96,34
+446,2025-07-04,Legal,Emerald Facilities Ltd,Consulting,49118.57,34
+447,2025-07-05,IT,Orion Analytics,Training,8551.77,20
+448,2025-07-06,Operations,Celtic Training Partners,Consulting,63124.08,56
+449,2025-07-06,Operations,Celtic Training Partners,Consulting,52915.65,28
+450,2025-07-07,HR,Orion Analytics,Consulting,15914.79,21
+451,2025-07-08,Finance,Harbour Office Supplies,Training,2563.93,14
+452,2025-07-08,HR,Harbour Office Supplies,Consulting,46611.82,20
+453,2025-07-09,HR,Northwind Digital,Training,1182.91,6
+454,2025-07-10,IT,Harbour Office Supplies,Facilities,5361.78,17
+455,2025-07-13,Operations,Celtic Training Partners,Facilities,24195.55,9
+456,2025-07-13,HR,Harbour Office Supplies,Facilities,20105.67,28
+457,2025-07-13,Operations,Northwind Digital,Consulting,69624.43,21
+458,2025-07-14,IT,Northwind Digital,Facilities,19551.8,17
+459,2025-07-16,Operations,Bluebell Stationery,Facilities,9612.93,29
+460,2025-07-17,HR,Atlas Cloud Services,Training,4027.53,14
+461,2025-07-17,Operations,Northwind Digital,Office Supplies,582.18,4
+462,2025-07-19,Finance,Northwind Digital,Consulting,29730.26,64
+463,2025-07-19,HR,Orion Analytics,IT Services,21805.91,35
+464,2025-07-20,Legal,Atlas Cloud Services,Facilities,14607.35,28
+465,2025-07-21,Operations,Emerald Facilities Ltd,IT Services,29663.07,26
+466,2025-07-21,Finance,Emerald Facilities Ltd,Facilities,17372.52,19
+467,2025-07-22,Operations,Emerald Facilities Ltd,Consulting,17330.71,40
+468,2025-07-24,IT,Emerald Facilities Ltd,Training,1756.35,7
+469,2025-07-24,Operations,Greenfield Maintenance,IT Services,8206.39,20
+470,2025-07-24,HR,Northwind Digital,Training,3606.84,13
+471,2025-07-25,IT,Harbour Office Supplies,Office Supplies,826.53,7
+472,2025-07-28,HR,Greenfield Maintenance,Office Supplies,827.22,3
+473,2025-07-28,Finance,Northwind Digital,Training,9471.43,9
+474,2025-07-29,HR,Harbour Office Supplies,Office Supplies,1240.04,8
+475,2025-07-29,HR,Northwind Digital,Facilities,13139.14,25
+476,2025-08-01,IT,Liffey Consulting Group,Office Supplies,908.53,7
+477,2025-08-02,Finance,Greenfield Maintenance,Facilities,22266.69,14
+478,2025-08-08,Operations,Liffey Consulting Group,Training,4188.86,9
+479,2025-08-09,Operations,Harbour Office Supplies,Office Supplies,31715.15,2
+480,2025-08-10,Legal,Celtic Training Partners,Training,3768.65,8
+481,2025-08-12,Legal,Atlas Cloud Services,Consulting,58577.45,31
+482,2025-08-12,Operations,Liffey Consulting Group,Training,2848.95,17
+483,2025-08-16,Legal,Greenfield Maintenance,Office Supplies,1325.06,9
+484,2025-08-17,HR,Northwind Digital,Consulting,40224.94,42
+485,2025-08-20,Legal,Northwind Digital,IT Services,22169.1,36
+486,2025-08-20,HR,Orion Analytics,Training,6346.65,25
+487,2025-08-23,HR,Greenfield Maintenance,Office Supplies,513.62,3
+488,2025-08-24,Operations,Greenfield Maintenance,Training,5663.43,20
+489,2025-08-24,Finance,Northwind Digital,IT Services,10442.51,15
+490,2025-08-28,Finance,Atlas Cloud Services,Facilities,3612.02,21
+491,2025-08-30,HR,Emerald Facilities Ltd,Facilities,10956.09,22
+492,2025-08-31,IT,Liffey Consulting Group,Training,1782.07,14
+493,2025-09-01,Finance,Harbour Office Supplies,IT Services,10911.43,19
+494,2025-09-01,Finance,Liffey Consulting Group,Consulting,28129.42,70
+495,2025-09-02,Finance,Greenfield Maintenance,Office Supplies,695.9,2
+496,2025-09-03,IT,Liffey Consulting Group,Training,4414.99,18
+497,2025-09-03,Legal,Liffey Consulting Group,IT Services,23111.17,26
+498,2025-09-04,HR,Liffey Consulting Group,Office Supplies,2735.17,10
+499,2025-09-06,IT,Liffey Consulting Group,Office Supplies,3128.7,2
+500,2025-09-08,IT,Atlas Cloud Services,Consulting,11605.02,22
+501,2025-09-08,Operations,Emerald Facilities Ltd,Training,3112.85,7
+502,2025-09-08,Operations,Northwind Digital,Consulting,33380.21,41
+503,2025-09-11,IT,Bluebell Stationery,Facilities,8874.98,17
+504,2025-09-11,HR,Orion Analytics,Office Supplies,1624.76,2
+505,2025-09-15,Operations,Emerald Facilities Ltd,IT Services,11145.11,41
+506,2025-09-15,Operations,Northwind Digital,Office Supplies,2247.75,10
+507,2025-09-16,Legal,Harbour Office Supplies,IT Services,11048.09,21
+508,2025-09-16,Legal,Liffey Consulting Group,Office Supplies,1443.08,7
+509,2025-09-16,Legal,Liffey Consulting Group,Facilities,6391.54,24
+510,2025-09-17,HR,Celtic Training Partners,Training,6984.4,12
+511,2025-09-20,Legal,Celtic Training Partners,Office Supplies,1288.52,4
+512,2025-09-20,IT,Northwind Digital,Office Supplies,3042.49,6
+513,2025-09-21,IT,Emerald Facilities Ltd,IT Services,16913.56,14
+514,2025-09-22,Legal,Orion Analytics,Training,1634.17,8
+515,2025-09-24,Operations,Emerald Facilities Ltd,Facilities,4987.81,12
+516,2025-09-26,Finance,Greenfield Maintenance,Training,9632.83,20
+517,2025-09-26,IT,Liffey Consulting Group,Office Supplies,981.19,8
+518,2025-09-27,Operations,Bluebell Stationery,Training,2576.06,10
+519,2025-09-29,Legal,Harbour Office Supplies,Facilities,16675.66,13
+520,2025-10-02,Operations,Liffey Consulting Group,Consulting,14380.13,35
+521,2025-10-03,Legal,Emerald Facilities Ltd,Consulting,12128.16,42
+522,2025-10-05,Finance,Greenfield Maintenance,Consulting,43396.24,39
+523,2025-10-06,IT,Liffey Consulting Group,Training,6056.0,20
+524,2025-10-09,Legal,Northwind Digital,Office Supplies,663.62,5
+525,2025-10-11,Legal,Orion Analytics,IT Services,5740.74,33
+526,2025-10-11,HR,Orion Analytics,IT Services,16563.71,26
+527,2025-10-12,Legal,Bluebell Stationery,Training,4147.12,18
+528,2025-10-12,HR,Orion Analytics,Training,7124.12,17
+529,2025-10-12,Legal,Shamrock Logistics,IT Services,11361.43,13
+530,2025-10-13,Operations,Harbour Office Supplies,Consulting,45514.84,66
+531,2025-10-14,Finance,Celtic Training Partners,IT Services,7122.95,39
+532,2025-10-14,HR,Northwind Digital,Consulting,31452.35,65
+533,2025-10-15,Legal,Northwind Digital,Consulting,8645.91,38
+534,2025-10-16,IT,Atlas Cloud Services,Training,1808.74,20
+535,2025-10-16,Finance,Emerald Facilities Ltd,Office Supplies,1804.5,6
+536,2025-10-16,Legal,Harbour Office Supplies,Training,2197.61,22
+537,2025-10-16,Legal,Orion Analytics,Office Supplies,1496.66,3
+538,2025-10-18,Operations,Emerald Facilities Ltd,Office Supplies,1671.56,4
+539,2025-10-18,Operations,Northwind Digital,Consulting,38212.57,59
+540,2025-10-19,Legal,Atlas Cloud Services,Training,6423.83,16
+541,2025-10-20,IT,Liffey Consulting Group,Office Supplies,3387.4,7
+542,2025-10-20,IT,Liffey Consulting Group,Consulting,83974.1,54
+543,2025-10-23,Operations,Northwind Digital,Office Supplies,2055.77,9
+544,2025-10-23,Finance,Orion Analytics,Facilities,17649.09,14
+545,2025-10-23,Legal,Orion Analytics,Consulting,14984.08,41
+546,2025-10-25,Finance,Harbour Office Supplies,Facilities,5137.62,30
+547,2025-10-25,HR,Northwind Digital,Office Supplies,1261.79,9
+548,2025-10-27,Finance,Orion Analytics,Consulting,43754.33,68
+549,2025-10-31,IT,Northwind Digital,Office Supplies,2462.28,6
+550,2025-10-31,Finance,Northwind Digital,IT Services,14586.59,42
+551,2025-11-01,HR,Liffey Consulting Group,IT Services,14387.48,22
+552,2025-11-02,Legal,Liffey Consulting Group,Office Supplies,882.5,7
+553,2025-11-03,IT,Greenfield Maintenance,Facilities,7793.68,25
+554,2025-11-06,Legal,Bluebell Stationery,Consulting,18395.78,53
+555,2025-11-07,HR,Liffey Consulting Group,Facilities,12855.15,20
+556,2025-11-08,Operations,Atlas Cloud Services,Office Supplies,1573.45,4
+557,2025-11-09,Operations,Harbour Office Supplies,IT Services,21082.1,13
+558,2025-11-09,Operations,Liffey Consulting Group,Training,2727.0,15
+559,2025-11-10,IT,Atlas Cloud Services,Facilities,11825.8,18
+560,2025-11-10,Operations,Emerald Facilities Ltd,Training,1171.86,21
+561,2025-11-11,Finance,Emerald Facilities Ltd,Consulting,27336.68,53
+562,2025-11-11,Legal,Harbour Office Supplies,Training,8637.08,24
+563,2025-11-13,Operations,Northwind Digital,Facilities,15300.69,29
+564,2025-11-14,Operations,Northwind Digital,IT Services,19428.54,5
+565,2025-11-14,IT,Shamrock Logistics,Training,5139.11,19
+566,2025-11-15,HR,Northwind Digital,Office Supplies,2663.15,2
+567,2025-11-16,Operations,Liffey Consulting Group,Training,7026.03,8
+568,2025-11-16,Finance,Liffey Consulting Group,Training,1999.19,15
+569,2025-11-18,Legal,Atlas Cloud Services,IT Services,29085.75,22
+570,2025-11-18,IT,Liffey Consulting Group,Office Supplies,801.89,7
+571,2025-11-19,HR,Liffey Consulting Group,Consulting,19869.1,21
+572,2025-11-19,Finance,Liffey Consulting Group,Office Supplies,417.69,9
+573,2025-11-20,Operations,Northwind Digital,IT Services,21069.93,7
+574,2025-11-20,Operations,Northwind Digital,IT Services,21768.01,6
+575,2025-11-21,IT,Atlas Cloud Services,Facilities,7517.24,29
+576,2025-11-22,Operations,Emerald Facilities Ltd,Training,7101.0,10
+577,2025-11-24,Legal,Atlas Cloud Services,Office Supplies,2080.51,3
+578,2025-11-24,IT,Northwind Digital,Facilities,9678.6,18
+579,2025-11-25,IT,Shamrock Logistics,Facilities,10045.0,16
+580,2025-11-27,Legal,Emerald Facilities Ltd,Consulting,28532.14,58
+581,2025-11-28,Operations,Northwind Digital,Consulting,72165.06,27
+582,2025-11-29,IT,Celtic Training Partners,IT Services,27599.06,33
+583,2025-12-02,Legal,Atlas Cloud Services,Training,7683.79,20
+584,2025-12-03,Finance,Emerald Facilities Ltd,Training,8758.57,7
+585,2025-12-04,Legal,Northwind Digital,Consulting,57857.65,25
+586,2025-12-06,Operations,Greenfield Maintenance,Consulting,24521.62,37
+587,2025-12-06,HR,Northwind Digital,Facilities,15837.12,29
+588,2025-12-07,Legal,Atlas Cloud Services,Consulting,11775.13,42
+589,2025-12-07,Finance,Harbour Office Supplies,Facilities,23373.34,18
+590,2025-12-07,Operations,Liffey Consulting Group,Office Supplies,2161.67,6
+591,2025-12-08,Operations,Northwind Digital,Office Supplies,2284.93,3
+592,2025-12-09,IT,Atlas Cloud Services,Consulting,12103.63,24
+593,2025-12-10,Operations,Northwind Digital,Facilities,4428.46,16
+594,2025-12-13,Legal,Harbour Office Supplies,Training,7316.68,7
+595,2025-12-14,IT,Celtic Training Partners,Training,6394.71,13
+596,2025-12-15,Legal,Atlas Cloud Services,Consulting,17983.26,68
+597,2025-12-15,Operations,Emerald Facilities Ltd,Consulting,21393.26,69
+598,2025-12-18,HR,Atlas Cloud Services,Training,6583.95,23
+599,2025-12-18,HR,Harbour Office Supplies,Training,1847.83,6
+600,2025-12-18,HR,Liffey Consulting Group,Training,2796.05,7
+601,2025-12-19,HR,Emerald Facilities Ltd,Office Supplies,1500.14,5
+602,2025-12-19,Legal,Northwind Digital,Training,4656.72,24
+603,2025-12-19,Finance,Orion Analytics,IT Services,22942.84,25
+604,2025-12-21,HR,Northwind Digital,Office Supplies,1626.26,2
+605,2025-12-21,Finance,Northwind Digital,IT Services,17324.02,20
+606,2025-12-22,IT,Northwind Digital,Facilities,18983.26,17
+607,2025-12-23,HR,Atlas Cloud Services,Office Supplies,1413.4,9
+608,2025-12-23,Legal,Atlas Cloud Services,Consulting,7385.58,25
+609,2025-12-23,Operations,Emerald Facilities Ltd,IT Services,19896.81,42
+610,2025-12-27,Finance,Emerald Facilities Ltd,Facilities,7088.7,16
+611,2025-12-29,Operations,Orion Analytics,Consulting,35074.11,27
+612,2025-12-30,IT,Harbour Office Supplies,Facilities,10694.41,23
